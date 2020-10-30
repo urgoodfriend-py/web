@@ -18,7 +18,7 @@ def face():
     else:
         imgurl = request.form['imgurl']
         # 여기에 face()
-        name = nvapi.justify(imgurl)
+        name = nvapi.judgment(imgurl)
         print(name)
         return name
 

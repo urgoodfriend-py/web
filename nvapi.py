@@ -4,7 +4,7 @@ import requests
 from urllib.request import urlopen
 import json 
 
-def justify(imgurl):
+def judgment(imgurl):
     client_id = "tz5oef8zdq"
     client_secret = "JVwWZdVw5NUwKQGSZnRzdiNzvAdAK0Ci21roDIVA"
     url = "https://naveropenapi.apigw.ntruss.com/vision/v1/celebrity" # 유명인 얼굴인식
