@@ -20,7 +20,10 @@ def face():
         # 여기에 face()
         name = nvapi.judgment(imgurl)
         print(name)
-        return name
+        return '''
+            <h1>{0}</h1>
+            <img src='{1}'>
+        '''.format(name, imgurl)
 
 if __name__ == '__main__':
     app.run(port=80, debug=True) # flask default port = 5000, web default 80번 변경
