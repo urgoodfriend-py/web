@@ -29,3 +29,6 @@ if __name__ == '__main__':
 # git remote add origin https://github.com/urgoodfriend-py/web.git
 # git branch -M main
 # git push -u origin main
+
+# git config --global user.email "urgoodfriend@naver.com"
+# git config --global user.name "urgoodfriend-py"
